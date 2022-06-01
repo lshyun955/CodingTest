@@ -26,7 +26,7 @@ function isValid(s) {
       }
     }
 
-    return !temp.length ? true : false;
+    return true;
   }
 }
 
