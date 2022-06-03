@@ -3,7 +3,7 @@ function getMaxArea(height) {
   const result = [];
 
   for (let i = 0; i < height.length; i++) {
-    for (let j = 1; j < height.length; j++) {
+    for (let j = i + 1; j < height.length; j++) {
       result.push(Math.min(height[i], height[j]) * (j - i));
     }
   }
