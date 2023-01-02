@@ -1,21 +1,55 @@
-function solution(priorities, location) {
-  var print_queue = [],
-    printed_list = [];
-  priorities.forEach((p, i) => print_queue.push({ index: i, priorities: p }));
-  print();
-  return printed_list.indexOf(location) + 1;
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
 
-  function print() {
-    var p = print_queue.shift();
-    if (p == null) {
-      return;
-    }
-    if (print_queue.findIndex((x) => x.priorities > p.priorities) >= 0) {
-      // 우선 순위가 높은 출력물이 있음
-      print_queue.push(p);
+class Queue {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+  }
+
+  enqueue(newValue) {
+    const newNode = new Node(newValue);
+    if (this.head === null) {
+      this.head = this.tail = newNode;
     } else {
-      printed_list.push(p.index);
+      this.tail.next = newNode;
+      this.tail = newNode;
     }
-    return print();
+  }
+
+  dequeue() {
+    const value = this.head.value;
+    this.head = this.head.next;
+    return value;
+  }
+
+  peek() {
+    return this.head.value;
+  }
+}
+
+function solution(priorities, location) {
+  const queue = new Queue();
+  for (let i = 0; i < priorities.length; i++) {
+    queue.enqueue([priorities[i], i]);
+  }
+  priorities.sort((a, b) => b - a);
+
+  let count = 0;
+  while (true) {
+    const currentValue = queue.peek();
+    if (currentValue[0] < priorities[count]) {
+      queue.enqueue(queue.dequeue());
+    } else {
+      const value = queue.dequeue();
+      count++;
+      if (location === value[1]) {
+        return count;
+      }
+    }
   }
 }
