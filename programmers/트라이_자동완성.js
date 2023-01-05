@@ -18,7 +18,7 @@ function solution(words) {
   for (const word of words) {
     let cnt = 0;
     let current = trie;
-    for (const [_, char] of [...word].entries()) {
+    for (const char of word) {
       cnt++;
       if (current[char][0] <= 1) {
         break;
