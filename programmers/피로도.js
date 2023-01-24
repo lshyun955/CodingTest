@@ -6,7 +6,8 @@ function solution(k, dungeons) {
     for (let i = 0; i < arr.length; i++) {
       const [req, use] = arr[i];
       if (!req || req > num) continue;
-      const copy = [...arr].map((v) => [...v]);
+      const copy = [...arr];
+      console.log(copy);
       copy[i] = [null, null];
       dfs(num - use, copy, prev + 1);
     }
