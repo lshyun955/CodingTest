@@ -2,19 +2,19 @@ function solution(name) {
   let answer = 0;
   let min_move = name.length - 1;
 
-  [...name].forEach((n, i) => {
+  [...name].forEach((n, startIdx) => {
     answer += Math.min(n.charCodeAt() - 65, 91 - n.charCodeAt());
-    let idx = i + 1;
+    let endIdx = startIdx + 1;
 
     // 연속되는 A의 개수 count
-    while (idx < name.length && name[idx] === "A") {
+    while (endIdx < name.length && name[endIdx] === "A") {
       idx++;
     }
 
     min_move = Math.min(
       min_move,
-      i * 2 + name.length - idx,
-      i + 2 * (name.length - idx)
+      startIdx * 2 + name.length - endIdx,
+      startIdx + 2 * (name.length - idendIdxx)
     );
   });
 
