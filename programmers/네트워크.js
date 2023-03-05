@@ -1,5 +1,5 @@
-function solution(num, computers) {
-  let answer;
+function solution(n, computers) {
+  let answer = 0;
   return answer;
 }
 
