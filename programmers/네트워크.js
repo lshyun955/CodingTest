@@ -1,4 +1,4 @@
-function solution(num, computers) {
+function solution(n, computers) {
   let answer;
   return answer;
 }
