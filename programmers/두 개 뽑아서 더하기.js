@@ -1,19 +1,18 @@
-function combinations(numArr, n) {
-  if (n === 1) return numArr.map((v) => [v]);
-  const result = [];
-
-  numArr.forEach((fixed, idx, arr) => {
-    const rest = arr.slice(idx + 1);
-    const combis = combinations(rest, n - 1);
-    const combine = combis.map((v) => [fixed, ...v]);
-    result.push(...combine);
-  });
-  return result;
-}
 function solution(numbers) {
-  return [
-    ...new Set(combinations(numbers, 2).map((combi) => combi[0] + combi[1])),
-  ].sort((a, b) => a - b);
-}
+  // 서로 다른 조합 (0,1) ~ (n-1, n) 오름차순 정렬
+  // 루프를 numbers 배열 기준으로 2개 돌림 
+  // 시간복잡도는 O(n^2) => 배열 최대 길이가 100 이므로 최대 10000
+  let answer = []; // 조합 담을 배열
+  for (let i = 0; i < numbers.length - 1; i++) {
+      for (let j = i + 1; j < numbers.length; j++) {
+          const sumNum = numbers[i] + numbers[j];
+          if (!answer.includes(sumNum)) {
+              answer.push(sumNum);
+          }
+      }
+  }
 
-console.log(solution([5, 0, 2, 7]));
+  answer = answer.sort((a,b) => a-b);
+  
+  return answer;
+}
