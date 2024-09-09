@@ -10,20 +10,33 @@ const answerArray = [...new Set(input)].sort((a,b) => a-b);
 if (answerArray.length === 7) {
     answerArray.forEach(v => { console.log(v); });
 } else {
-    const sum = answerArray.reduce((acc, curr) => acc + curr, 0);
+    getAnswerArray(answerArray);
+}
+
+function getAnswerArray(arr) {
+    const sum = arr.reduce((acc, curr) => acc + curr, 0);
     const tempArr = [];
 
-    for (let i = 0; i < answerArray.length; i++) {
-        for (let j = i + 1; j < answerArray.length; j++) {
-            if (sum - (answerArray[i] + answerArray[j]) === 100) {
-                tempArr.push(answerArray[i], answerArray[j]);
+    if (arr.length === 9) {
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = i + 1; j < arr.length; j++) {
+                if (sum - (arr[i] + arr[j]) === 100) {
+                    tempArr.push(arr[i], arr[j]);
+                    break;  // 이미 찾았으므로 더 이상 반복할 필요 없음
+                }
+            }
+            if (tempArr.length > 0) break;  // 이미 찾았으면 바깥 for문도 종료
+        }
+    } else {
+        for (let i = 0; i < arr.length; i++) {
+            if (sum - arr[i] === 100) {
+                tempArr.push(arr[i]);
                 break;  // 이미 찾았으므로 더 이상 반복할 필요 없음
             }
         }
-        if (tempArr.length > 0) break;  // 이미 찾았으면 바깥 for문도 종료
     }
 
-    answerArray.forEach(v => {
+    arr.forEach(v => {
         if (!tempArr.includes(v)) {
             console.log(v);
         }
