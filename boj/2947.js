@@ -11,21 +11,13 @@ function recursionFunc(listArr, init) {
     }
 
     for (let i = 0; i < listArr.length; i++) {
-        let sorted = false;
         if (listArr[i] > listArr[i + 1]) {
             let temp = listArr[i];
             listArr[i] = listArr[i + 1];
             listArr[i + 1] = temp; 
 
-            sorted = true;
-        }
-
-        if (sorted) {
             answeTempSet.add(listArr.join(' '));
-        }
-
-        sorted = false;
-        
+        }        
     }
     recursionFunc(listArr);
 }
