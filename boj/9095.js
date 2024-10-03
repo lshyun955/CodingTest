@@ -23,7 +23,7 @@ function countWays(n) {
         if (i - 2 >= 0) dp[i] += dp[i - 2];
         if (i - 3 >= 0) dp[i] += dp[i - 3];
     }
-    console.log(dp)
+
     return dp[n];
 }
 
