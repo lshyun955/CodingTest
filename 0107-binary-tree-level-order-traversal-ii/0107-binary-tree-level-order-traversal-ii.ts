@@ -14,23 +14,25 @@
 
 function levelOrderBottom(root: TreeNode | null): number[][] {
     if (!root) return [];
-    const queue = [root];
-    const result = [];
 
-    while(queue.length) {
-        const size = queue.length
-        const group = [];
+    const queue: TreeNode[] = [root];
+    const result: number[][] = [];
+    let head = 0; // 큐의 앞부분 인덱스
+
+    while (head < queue.length) {
+        const size = queue.length - head;
+        const group: number[] = [];
 
         for (let i = 0; i < size; i++) {
-            const curr = queue.shift();
+            const curr = queue[head++];
             group.push(curr.val);
 
-            if (curr.left) queue.push(curr.left)
-            if (curr.right) queue.push(curr.right)
+            if (curr.left) queue.push(curr.left);
+            if (curr.right) queue.push(curr.right);
         }
 
         result.push(group);
     }
 
     return result.reverse();
-};
+}
