@@ -1,10 +1,11 @@
 function twoSum(nums: number[], target: number): number[] {
+    const map = new Map<number, number>();
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
-        const lastIdx = nums.findLastIndex((num) => num === complement);
-        if (nums.includes(target - nums[i]) && i !== lastIdx) {
-            return [i, lastIdx];
+        if (map.has(complement)) {
+            return [map.get(complement), i];
         }
+        map.set(nums[i], i);
     }
 
     return [];
