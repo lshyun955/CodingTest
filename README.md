@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/lshyun955/CodingTest/tree/master/0035-search-insert-position) |
 | [0222-count-complete-tree-nodes](https://github.com/lshyun955/CodingTest/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/lshyun955/CodingTest/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/lshyun955/CodingTest/tree/master/0014-longest-common-prefix) |
+| [0035-search-insert-position](https://github.com/lshyun955/CodingTest/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
 | [1646-kth-missing-positive-number](https://github.com/lshyun955/CodingTest/tree/master/1646-kth-missing-positive-number) |
