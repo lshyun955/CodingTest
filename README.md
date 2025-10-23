@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/lshyun955/CodingTest/tree/master/0100-same-tree) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/lshyun955/CodingTest/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/lshyun955/CodingTest/tree/master/0222-count-complete-tree-nodes) |
 | [0508-most-frequent-subtree-sum](https://github.com/lshyun955/CodingTest/tree/master/0508-most-frequent-subtree-sum) |
 | [0617-merge-two-binary-trees](https://github.com/lshyun955/CodingTest/tree/master/0617-merge-two-binary-trees) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/lshyun955/CodingTest/tree/master/0035-search-insert-position) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/lshyun955/CodingTest/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/lshyun955/CodingTest/tree/master/0100-same-tree) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/lshyun955/CodingTest/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/lshyun955/CodingTest/tree/master/0222-count-complete-tree-nodes) |
 | [0508-most-frequent-subtree-sum](https://github.com/lshyun955/CodingTest/tree/master/0508-most-frequent-subtree-sum) |
 | [0617-merge-two-binary-trees](https://github.com/lshyun955/CodingTest/tree/master/0617-merge-two-binary-trees) |
@@ -61,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/lshyun955/CodingTest/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/lshyun955/CodingTest/tree/master/0014-longest-common-prefix) |
 | [0035-search-insert-position](https://github.com/lshyun955/CodingTest/tree/master/0035-search-insert-position) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
 | [1646-kth-missing-positive-number](https://github.com/lshyun955/CodingTest/tree/master/1646-kth-missing-positive-number) |
@@ -92,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/lshyun955/CodingTest/tree/master/0014-longest-common-prefix) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 <!---LeetCode Topics End-->
