@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
+| [1127-last-stone-weight](https://github.com/lshyun955/CodingTest/tree/master/1127-last-stone-weight) |
 | [1646-kth-missing-positive-number](https://github.com/lshyun955/CodingTest/tree/master/1646-kth-missing-positive-number) |
 ## Hash Table
 |  |
@@ -100,4 +101,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1127-last-stone-weight](https://github.com/lshyun955/CodingTest/tree/master/1127-last-stone-weight) |
 <!---LeetCode Topics End-->
