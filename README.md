@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/lshyun955/CodingTest/tree/master/0001-two-sum) |
 | [0205-isomorphic-strings](https://github.com/lshyun955/CodingTest/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/lshyun955/CodingTest/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/lshyun955/CodingTest/tree/master/0383-ransom-note) |
 | [0508-most-frequent-subtree-sum](https://github.com/lshyun955/CodingTest/tree/master/0508-most-frequent-subtree-sum) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/lshyun955/CodingTest/tree/master/0014-longest-common-prefix) |
 | [0205-isomorphic-strings](https://github.com/lshyun955/CodingTest/tree/master/0205-isomorphic-strings) |
+| [0290-word-pattern](https://github.com/lshyun955/CodingTest/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/lshyun955/CodingTest/tree/master/0383-ransom-note) |
 ## Trie
 |  |
