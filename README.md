@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/lshyun955/CodingTest/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/lshyun955/CodingTest/tree/master/0383-ransom-note) |
+| [0398-random-pick-index](https://github.com/lshyun955/CodingTest/tree/master/0398-random-pick-index) |
 | [0508-most-frequent-subtree-sum](https://github.com/lshyun955/CodingTest/tree/master/0508-most-frequent-subtree-sum) |
 ## Math
 |  |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/lshyun955/CodingTest/tree/master/0013-roman-to-integer) |
 | [0202-happy-number](https://github.com/lshyun955/CodingTest/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
+| [0398-random-pick-index](https://github.com/lshyun955/CodingTest/tree/master/0398-random-pick-index) |
 ## Sorting
 |  |
 | ------- |
@@ -145,4 +147,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/lshyun955/CodingTest/tree/master/0160-intersection-of-two-linked-lists) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0398-random-pick-index](https://github.com/lshyun955/CodingTest/tree/master/0398-random-pick-index) |
+## Randomized
+|  |
+| ------- |
+| [0398-random-pick-index](https://github.com/lshyun955/CodingTest/tree/master/0398-random-pick-index) |
 <!---LeetCode Topics End-->
