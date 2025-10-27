@@ -13,9 +13,7 @@ class Solution {
     }
 
     pick(target: number): number {
-        const randomIdx = Math.floor(Math.random() * this.numsIdxArrMap[target].length);
-
-        return this.numsIdxArrMap[target][randomIdx];
+        return this.numsIdxArrMap[target][Math.floor(Math.random() * this.numsIdxArrMap[target].length)];
     }
 }
 
