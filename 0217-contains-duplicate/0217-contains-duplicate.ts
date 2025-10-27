@@ -1,13 +1,12 @@
 function containsDuplicate(nums: number[]): boolean {
-    const numsMap: Record<number, boolean> = {};
-
+    const seen = new Set<number>();
+    
     for (const num of nums) {
-        if (numsMap[num]) {
+        if (seen.has(num)) {
             return true;
-        } else {
-            numsMap[num] = true;
         }
+        seen.add(num);
     }
-
+    
     return false;
 };
