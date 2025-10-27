@@ -1,12 +1,25 @@
 function twoSum(nums: number[], target: number): number[] {
-    const map = new Map<number, number>();
-    for (let i = 0; i < nums.length; i++) {
-        const complement = target - nums[i];
-        if (map.has(complement)) {
-            return [map.get(complement), i];
+    const numMap: Record<number, number[]> = {};
+    nums.forEach((num: number, idx: number) => {
+        if (!numMap[num]) {
+            numMap[num] = [idx];
+        } else {
+            numMap[num].push(idx);
         }
-        map.set(nums[i], i);
-    }
+    });
 
-    return [];
+    for (const num of nums) {
+        const num1Idx = numMap[num][0];
+        let num2Idx = numMap[target - num]?.[0];
+
+        if (target - num === num && numMap[target - num].length > 1) {
+            num2Idx = numMap[num][1];
+        }
+
+        if (!num2Idx || num1Idx === num2Idx) {
+            continue;
+        }
+
+        return [num1Idx, num2Idx];
+    }
 };
