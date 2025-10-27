@@ -1,32 +1,28 @@
 function intToRoman(num: number): string {
-    let result: string = '';
-    const symbols: Record<number, string> = {
-        1: 'I',
-        4: 'IV',
-        5: 'V',
-        9: 'IX',
-        10: 'X',
-        40: 'XL',
-        50: 'L',
-        90: 'XC',
-        100: 'C',
-        400: 'CD',
-        500: 'D',
-        900: 'CM',
-        1000: 'M'
-    };
+    let result = '';
+    
+    const symbols: [number, string][] = [
+        [1000, 'M'],
+        [900, 'CM'],
+        [500, 'D'],
+        [400, 'CD'],
+        [100, 'C'],
+        [90, 'XC'],
+        [50, 'L'],
+        [40, 'XL'],
+        [10, 'X'],
+        [9, 'IX'],
+        [5, 'V'],
+        [4, 'IV'],
+        [1, 'I'],
+    ];
 
-    const keys = Object.keys(symbols)
-        .map(Number)
-        .sort((a, b) => b - a);
-
-    for (const key of keys) {
-        while (num >= key) {
-            result += symbols[key];
-            num -= key;
+    for (const [value, symbol] of symbols) {
+        while (num >= value) {
+            result += symbol;
+            num -= value;
         }
     }
 
     return result;
-    
 };
