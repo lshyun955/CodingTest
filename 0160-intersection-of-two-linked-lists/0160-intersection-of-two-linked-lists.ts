@@ -13,22 +13,13 @@
 function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): ListNode | null {
     if (!headA || !headB) return null;
 
-    let currentNodeA = headA;
-    let currentNodeB = headB;
-    const seen = new Set<ListNode>();
+    let currentNodeA: ListNode | null = headA;
+    let currentNodeB: ListNode | null = headB;
 
-    while (currentNodeA) {
-        seen.add(currentNodeA);
-        currentNodeA = currentNodeA.next;
+    while (currentNodeA !== currentNodeB) {
+        currentNodeA = currentNodeA ? currentNodeA.next : headA;
+        currentNodeB = currentNodeB ? currentNodeB.next : headB;
     }
 
-    while (currentNodeB) {
-        if (seen.has(currentNodeB)) {
-            return currentNodeB;
-        }
-
-        currentNodeB = currentNodeB.next;
-    }
-
-    return null;
+    return currentNodeA;
 };
