@@ -17,8 +17,8 @@ function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): Li
     let currentNodeB: ListNode | null = headB;
 
     while (currentNodeA !== currentNodeB) {
-        currentNodeA = currentNodeA ? currentNodeA.next : headA;
-        currentNodeB = currentNodeB ? currentNodeB.next : headB;
+        currentNodeA = currentNodeA ? currentNodeA.next : headB;
+        currentNodeB = currentNodeB ? currentNodeB.next : headA;
     }
 
     return currentNodeA;
