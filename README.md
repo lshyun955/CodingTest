@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
 | [1127-last-stone-weight](https://github.com/lshyun955/CodingTest/tree/master/1127-last-stone-weight) |
 | [1646-kth-missing-positive-number](https://github.com/lshyun955/CodingTest/tree/master/1646-kth-missing-positive-number) |
+| [1706-min-cost-to-connect-all-points](https://github.com/lshyun955/CodingTest/tree/master/1706-min-cost-to-connect-all-points) |
 ## Hash Table
 |  |
 | ------- |
@@ -172,4 +173,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/lshyun955/CodingTest/tree/master/0133-clone-graph) |
+| [1706-min-cost-to-connect-all-points](https://github.com/lshyun955/CodingTest/tree/master/1706-min-cost-to-connect-all-points) |
+## Union Find
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/lshyun955/CodingTest/tree/master/1706-min-cost-to-connect-all-points) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/lshyun955/CodingTest/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
