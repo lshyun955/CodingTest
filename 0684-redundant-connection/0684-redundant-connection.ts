@@ -37,7 +37,7 @@ class UnionFind {
 }
 function findRedundantConnection(edges: number[][]): number[] {
     const n = edges.length;
-    const uf = new UnionFind(n);
+    const uf = new UnionFind(n + 1);
 
     for (const [u, v] of edges) {
         if (!uf.union(u, v)) {
