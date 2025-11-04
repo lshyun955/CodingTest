@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/lshyun955/CodingTest/tree/master/0133-clone-graph) |
 | [0508-most-frequent-subtree-sum](https://github.com/lshyun955/CodingTest/tree/master/0508-most-frequent-subtree-sum) |
 | [0617-merge-two-binary-trees](https://github.com/lshyun955/CodingTest/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/lshyun955/CodingTest/tree/master/0684-redundant-connection) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/lshyun955/CodingTest/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0933-increasing-order-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0933-increasing-order-search-tree) |
 ## Breadth-First Search
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/lshyun955/CodingTest/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0133-clone-graph](https://github.com/lshyun955/CodingTest/tree/master/0133-clone-graph) |
 | [0617-merge-two-binary-trees](https://github.com/lshyun955/CodingTest/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/lshyun955/CodingTest/tree/master/0684-redundant-connection) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/lshyun955/CodingTest/tree/master/0799-minimum-distance-between-bst-nodes) |
 ## Binary Search Tree
 |  |
@@ -173,10 +175,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/lshyun955/CodingTest/tree/master/0133-clone-graph) |
+| [0684-redundant-connection](https://github.com/lshyun955/CodingTest/tree/master/0684-redundant-connection) |
 | [1706-min-cost-to-connect-all-points](https://github.com/lshyun955/CodingTest/tree/master/1706-min-cost-to-connect-all-points) |
 ## Union Find
 |  |
 | ------- |
+| [0684-redundant-connection](https://github.com/lshyun955/CodingTest/tree/master/0684-redundant-connection) |
 | [1706-min-cost-to-connect-all-points](https://github.com/lshyun955/CodingTest/tree/master/1706-min-cost-to-connect-all-points) |
 ## Minimum Spanning Tree
 |  |
