@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/lshyun955/CodingTest/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/lshyun955/CodingTest/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
+| [0300-longest-increasing-subsequence](https://github.com/lshyun955/CodingTest/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/lshyun955/CodingTest/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/lshyun955/CodingTest/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/lshyun955/CodingTest/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/lshyun955/CodingTest/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
+| [0300-longest-increasing-subsequence](https://github.com/lshyun955/CodingTest/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
 | [0747-min-cost-climbing-stairs](https://github.com/lshyun955/CodingTest/tree/master/0747-min-cost-climbing-stairs) |
 | [1127-last-stone-weight](https://github.com/lshyun955/CodingTest/tree/master/1127-last-stone-weight) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/lshyun955/CodingTest/tree/master/0070-climbing-stairs) |
+| [0300-longest-increasing-subsequence](https://github.com/lshyun955/CodingTest/tree/master/0300-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/lshyun955/CodingTest/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
 |  |
