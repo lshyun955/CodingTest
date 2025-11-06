@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/lshyun955/CodingTest/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/lshyun955/CodingTest/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/lshyun955/CodingTest/tree/master/0349-intersection-of-two-arrays) |
+| [0747-min-cost-climbing-stairs](https://github.com/lshyun955/CodingTest/tree/master/0747-min-cost-climbing-stairs) |
 | [1127-last-stone-weight](https://github.com/lshyun955/CodingTest/tree/master/1127-last-stone-weight) |
 | [1646-kth-missing-positive-number](https://github.com/lshyun955/CodingTest/tree/master/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/lshyun955/CodingTest/tree/master/1706-min-cost-to-connect-all-points) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/lshyun955/CodingTest/tree/master/0070-climbing-stairs) |
+| [0747-min-cost-climbing-stairs](https://github.com/lshyun955/CodingTest/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
