@@ -1,16 +1,14 @@
 function minCostClimbingStairs(cost: number[]): number {
-    const memo: Record<number, number> = {};
+    const n = cost.length;
 
-    function dp(i: number): number {
-        if (i <= 1) return 0;
-        if (memo[i] !== undefined) return memo[i];
+    let prev1 = 0;
+    let prev2 = 0;
 
-        const oneStep = dp(i - 1) + cost[i - 1];
-        const twoStep = dp(i - 2) + cost[i - 2];
-
-        memo[i] = Math.min(oneStep, twoStep);
-        return memo[i];
+    for (let i = 2; i < n + 1; i++) {
+        const cur = Math.min(prev1 + cost[i - 1], prev2 + cost[i - 2]);
+        prev2 = prev1;
+        prev1 = cur;
     }
 
-    return dp(cost.length);
+    return prev1;
 };
