@@ -1,21 +1,16 @@
 function coinChange(coins: number[], amount: number): number {
-    const memo: Record<number, number> = {};
+   const dp = new Array(amount + 1).fill(Infinity);
+   dp[0] = 0;
 
-    function dfs(a: number): number {
-        if (a === 0) return 0;
-        if (a < 0) return Infinity;
-        if (memo[a] !== undefined) return memo[a];
-        
-        let res = Infinity;
-
+   for (let i = 1; i < amount + 1; i++) {
         for (const coin of coins) {
-            res = Math.min(res, dfs(a - coin) + 1);
+            if (i - coin >= 0) {
+                dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+            }
         }
+   }
 
-        memo[a] = res;
-        return res;
-    }
+   const answer = dp[amount];
 
-    const answer = dfs(amount);
-    return answer === Infinity ? -1 : answer;
+   return answer === Infinity ? -1 : answer;
 };
