@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/lshyun955/CodingTest/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/lshyun955/CodingTest/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/lshyun955/CodingTest/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/lshyun955/CodingTest/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/lshyun955/CodingTest/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/lshyun955/CodingTest/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -227,5 +228,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/lshyun955/CodingTest/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/lshyun955/CodingTest/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/lshyun955/CodingTest/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/lshyun955/CodingTest/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
