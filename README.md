@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/lshyun955/CodingTest/tree/master/0079-word-search) |
 | [0100-same-tree](https://github.com/lshyun955/CodingTest/tree/master/0100-same-tree) |
 | [0133-clone-graph](https://github.com/lshyun955/CodingTest/tree/master/0133-clone-graph) |
 | [0508-most-frequent-subtree-sum](https://github.com/lshyun955/CodingTest/tree/master/0508-most-frequent-subtree-sum) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/lshyun955/CodingTest/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/lshyun955/CodingTest/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/lshyun955/CodingTest/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/lshyun955/CodingTest/tree/master/0079-word-search) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/lshyun955/CodingTest/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/lshyun955/CodingTest/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/lshyun955/CodingTest/tree/master/0162-find-peak-element) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/lshyun955/CodingTest/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/lshyun955/CodingTest/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/lshyun955/CodingTest/tree/master/0014-longest-common-prefix) |
+| [0079-word-search](https://github.com/lshyun955/CodingTest/tree/master/0079-word-search) |
 | [0205-isomorphic-strings](https://github.com/lshyun955/CodingTest/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/lshyun955/CodingTest/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/lshyun955/CodingTest/tree/master/0290-word-pattern) |
@@ -230,4 +233,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/lshyun955/CodingTest/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/lshyun955/CodingTest/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/lshyun955/CodingTest/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/lshyun955/CodingTest/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/lshyun955/CodingTest/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
