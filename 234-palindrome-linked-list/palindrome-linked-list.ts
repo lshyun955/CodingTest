@@ -12,21 +12,22 @@
 
 function isPalindrome(head: ListNode | null): boolean {
     const stack: number[] = [];
-    let currentNode: ListNode | null = head;
+    let slow: ListNode | null = head;
+    let fast: ListNode | null = head;
 
-    while (currentNode !== null) {
-        stack.push(currentNode.val);
-        currentNode = currentNode.next;
+    while (fast !== null && fast.next !== null) {
+        stack.push(slow.val);
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+// 1 2 3 2 1
+    if (fast !== null) {
+        slow = slow.next;
     }
 
-    let first = 0;
-    let last = stack.length - 1;
-
-    while (first < last) {
-        if (stack[first] !== stack[last]) return false;
-
-        first++;
-        last--;
+    while (slow !== null) {
+        if (stack.pop() !== slow.val) return false;
+        slow = slow.next;
     }
 
     return true;
